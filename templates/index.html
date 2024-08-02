@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Examen Final - DSIS</title>
+    <link rel="stylesheet" href="../static/css/style.css" type="text/css">
+</head>
+<body>
+    <h1 class="titulo">Prueba de Clasificadores - Kevin Zurita</h1>
+    <br>
+    <br>
+    <div class="contenedor">
+        <form action="/clasificacion" method="post">
+            <label id="lbl_1" for="input_prompt">Inserte su texto a clasificar</label>
+            <input id="input_prompt" name="input_usuario" type="text" placeholder="..." class="style_Prompt">
+            <br>
+            <button type="submit">Clasificar</button>
+        </form>
+    </div>
+    <br><br>
+    <div class="contenedor">
+        Resultado de la clasificacion:
+        <br>
+        <label class="prediccion_Final" id="lbl_prediccion">{{ clasificacion_final }}</label>
+    </div>
+    <br>
+    <br>
+</body> 
+</html>

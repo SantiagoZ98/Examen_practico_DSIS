@@ -1,0 +1,28 @@
+body{
+    background-color: #71d6c0;
+}
+.titulo{
+    color: #090a0a;
+    text-align: center;
+}
+.logo{
+    width: 120px;
+}
+.contenedor{
+    background-color: #5a95bd;
+    color: #000000;
+    border-radius: 3px;
+    height: 20px;
+    margin: 8px;
+}
+
+.style_Prompt{
+    width: 400px;
+    height: 14px;
+}
+
+.prediccion_Final{
+    background-color: #ffffff;
+    font-weight: bold ;
+    margin: 20px;
+}
